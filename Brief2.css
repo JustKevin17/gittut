@@ -1,0 +1,77 @@
+.container {
+    margin: auto;
+    width: 960px;
+    height: 300px;
+}
+
+body {
+    width: 98%;
+    height: 98%;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    margin: auto;
+    width: 960px;
+    height: 150px;
+    border-bottom: 5px solid #53B0D2;
+}
+
+header > .img > img {
+    width: 250px;
+    height: 150px;
+}
+
+.img {
+    text-align: center;
+}
+
+header > h1 {
+    display: none;
+}
+
+.img > nav > ul > li {
+    display: inline-block;
+    margin: 0px;
+}
+
+.img nav ul {
+    text-align: right;
+}
+
+main {
+    height: 83%;
+    width: 72%;
+    float: left;
+    margin-right: 80px;
+}
+
+aside {
+    height: 83%;
+    width: 180px;
+    float: left;
+}
+
+footer{
+    height: auto;
+    width: 72%;
+    clear: both;
+}
+
+footer h2{
+margin-top: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-weight: bold;
+}
+
+header nav{
+    float: right;
+    margin-top: 100px;
+}
